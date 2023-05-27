@@ -1,0 +1,13 @@
+HTTrack3.49-2 launched on Tue, 16 May 2023 10:53:19 at http://azim.commonsupport.com/Losalamos/index.html
+(winhttrack http://azim.commonsupport.com/Losalamos/index.html -O "ttt/tttt" -%v -r100 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:03:11	Error: 	"Not Found" (404) at link azim.commonsupport.com/Losalamos/assets/css/owl.video.play.png (from azim.commonsupport.com/Losalamos/assets/css/owl.css)
+11:03:11	Error: 	"Not Found" (404) at link azim.commonsupport.com/Losalamos/resource.html (from azim.commonsupport.com/Losalamos/research.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 54 seconds : 219 links scanned, 216 files written (14760124 bytes overall) [10631735 bytes received at 17898 bytes/sec], 5900991 bytes transferred using HTTP compression in 93 files, ratio 28%, 1.8 requests per connection
+(2 errors, 0 warnings, 0 messages)
