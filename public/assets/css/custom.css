@@ -10,3 +10,38 @@
     width: 1.33333333em;
     line-height: 1em;
 }
+.main-header.style-one .header-top {
+    padding: 8px 0px 4px 0px;
+}
+header > div.header-top > div > .top-inner{
+    line-height: 14px;
+}
+.main-header.style-one .header-top .info li {
+        line-height: 20px;
+}
+body > header > div.header-top > div > div > ul.top-right.pull-right > li.nav-item .nav-link{
+    padding: 0.2rem 1rem;
+}
+.main-header.style-one .logo-box {
+    padding: 0px 50px 0px 0px;
+}
+.main-menu .navigation > li {
+        padding: 25px 0px 25px 0px;
+}
+.main-header.style-one .btn-box {
+        margin: 15px 0px 0px 50px;
+}
+header > div.header-upper div.logo-box img{
+    height: 80px;
+}
+
+.banner-carousel .active .slide-item .image-layer{
+    /* height: 50%; */
+}
+.main-header.style-one .sticky-header .logo-box {
+    padding: 0px 50px 0px 0px;
+}
+
+#team > div.auto-container > div:nth-child(2) > div:nth-child(1) > div > div > figure > a > img{
+    height: 278px;
+}

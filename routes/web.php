@@ -18,4 +18,5 @@ use App\Http\Controllers\HomeController;
 //     return view('index');
 // });
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/team/{id}', [HomeController::class, 'team'])->name('team');
 Route::get('setlocale/{lang}', [HomeController::class, 'setlocale'])->name('lang');

@@ -13,8 +13,7 @@
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{ URL::asset('assets/images/ESI-Logo-BG.png') }}" type="image/x-icon">
-
+    <link rel="icon" href="{{ URL::asset('assets/images/lcsi1-1.ico') }}" type="image/x-icon">
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Titillium+Web:300,300i,400,400i,600,600i,700,700i,900&amp;display=swap"
@@ -152,10 +151,10 @@
                         </li>
                         <li class="social-links">
                             <ul class="clearfix">
-                                <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </li>
                     </ul>
@@ -235,7 +234,7 @@
                                             <li><a href="team-details.html">Team Details</a></li>
                                         </ul>
                                     </li> --}}
-                                    {{-- <li class="dropdown"><a href="index.html">Elements</a>
+                                    <li class="dropdown"><a href="index.html">Others</a>
                                         <div class="megamenu">
                                             <div class="row clearfix">
                                                 <div class="col-lg-3 column">
@@ -292,7 +291,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li> --}}
+                                    </li>
                                     {{-- <li class="dropdown"><a href="index.html">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Latest News</a></li>
@@ -304,7 +303,7 @@
                                 </ul>
                             </div>
                         </nav>
-                        <div class="btn-box"><a href="index.html" class="theme-btn style-one">{{ __('Join Research') }}</a></div>
+                        <div class="btn-box"><a href="#contact" class="theme-btn style-one">{{ __('Join Research') }}</a></div>
                     </div>
                 </div>
             </div>
@@ -315,14 +314,13 @@
             <div class="auto-container">
                 <div class="outer-box clearfix">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index.html"><img src="assets/images/lcsi1-1.png"
-                                    alt=""></a></figure>
+                        <figure class="logo"><a href="index.html"><img src="assets/images/lcsi1-1.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
                         <nav class="main-menu clearfix">
                             <!--Keep This Empty / Menu will come through Javascript-->
                         </nav>
-                        <div class="btn-box"><a href="index.html" class="theme-btn style-one">{{ __('Join Research') }}</a></div>
+                        <div class="btn-box"><a href="#contact" class="theme-btn style-one">{{ __('Join Research') }}</a></div>
                     </div>
                 </div>
             </div>
@@ -344,18 +342,18 @@
             <div class="contact-info">
                 <h4>Contact Info</h4>
                 <ul>
-                    <li>Chicago 12, Melborne City, USA</li>
-                    <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    <li>LCSI BP 68M Oued-Smar 16309 Alger</li>
+                    <li><a href="tel:+8801682648101">(+213/0) 21 51 60 77</a></li>
+                    <li><a href="mailto:info@example.com">lcsi@esi.dz</a></li>
                 </ul>
             </div>
             <div class="social-links">
                 <ul class="clearfix">
-                    <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                    <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
                 </ul>
             </div>
         </nav>
@@ -366,10 +364,22 @@
     <section class="banner-section">
         <div class="banner-carousel owl-theme owl-carousel owl-dots-none owl-nav-none">
             <div class="slide-item">
-                <div class="image-layer" style="background-image:url(assets/images/banner/banner-8.jpg)"></div>
+                <div class="image-layer" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
                         <h5>Welcome To LCSI</h5>
+                        <h1>Serving Science & Technology</h1>
+                        <div class="btn-box">
+                            <a href="service.html" class="theme-btn style-two">Our Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(assets/images/banner/banner-8.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h5>AI Team</h5>
                         <h1>Robotics & Artificial Intelligence</h1>
                         <div class="btn-box">
                             <a href="service.html" class="theme-btn style-two">Read more</a>
@@ -384,19 +394,7 @@
                         <h5>Productions </h5>
                         <h1>Articles & Books</h1>
                         <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Our Service</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-item">
-                <div class="image-layer" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
-                <div class="auto-container">
-                    <div class="content-box">
-                        <h5>Welcome To LCSI</h5>
-                        <h1>Serving Science & Technology</h1>
-                        <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Our Service</a>
+                            <a href="service.html" class="theme-btn style-two">Our Productions</a>
                         </div>
                     </div>
                 </div>
@@ -424,9 +422,9 @@
             <div class="inner-box clearfix">
                 <figure class="image-box"><img src="assets/images/resource/intro-1.jpg" alt=""></figure>
                 <div class="inner pull-left">
-                    <h3>Best Research Laboratory at ESI from 2010-2023!</h3>
-                    <p>LCSI est un laboratoire de recherche dans l'ESI .</p>
-                    <p>commencé en 2010 par un Arrêté ministériel n° 93 du 25 mars 2010, .</p>
+                    <h4>{{ __('One of the best research laboratory in Algeria from 2010-2023!') }}</h4>
+                    <p>{{ __('LCSI is a research laboratory in ESI') }}</p>
+                    <p>{{ __('Commencé en 2010 par un Arrêté ministériel n° 93 du 25 mars 2010') }}</p>
                 </div>
                 <div class="btn-box pull-right">
                     <a href="#contact" class="theme-btn style-one">Contact Us</a>
@@ -463,33 +461,37 @@
                                 <span class="separator"></span>
                             </div>
                             <div class="text">
-                                <p>Our scientists and engineers focus their extreme curiosity on national and global
-                                    security & health related challenges. Learn more about the Laboratory’s R&D work
+                                <p>Our scientists and engineers focus their curiosity on national and global 
+                                    Computer Systems related challenges. Learn more about the Laboratory’s R&D work
                                     below segment.</p>
                             </div>
                             <div class="inner-box">
                                 <div class="single-item">
                                     <div class="count-box"><span>01</span></div>
                                     <div class="inner">
-                                        <h3><a href="index.html">Central Forensic Science</a></h3>
-                                        <p>Forensic science is a discipline that applies scientific analysis to the
-                                            justice system, help prove the events of crime</p>
+                                        <h3><a href="index.html">{{__('Dynamic Data Distribution')}}</a></h3>
+                                        <p>{{__('Design of data structures adapted for distributed and mobile environments')}}</p>
                                     </div>
                                 </div>
                                 <div class="single-item">
                                     <div class="count-box"><span>02</span></div>
                                     <div class="inner">
-                                        <h3><a href="index.html">Clinical & Medical Laboratory</a></h3>
-                                        <p>Conducts lab tests ordered by doctors. Working with laboratory machines as we
-                                            examine human tissue samples & diagnose</p>
+                                        <h3><a href="index.html">{{__('Advanced Databases')}}</a></h3>
+                                        <p>{{__('Advanced architectures of next-generation DBMSs')}}</p>
                                     </div>
                                 </div>
                                 <div class="single-item">
                                     <div class="count-box"><span>03</span></div>
                                     <div class="inner">
-                                        <h3><a href="index.html">Analytical & Quality Laboratory</a></h3>
-                                        <p>The Various techniques that we are used to identifying the chemical makeup
-                                            and characteristics of a particular samples</p>
+                                        <h3><a href="index.html">{{__('Artificial Intelligence')}}</a></h3>
+                                        <p>{{__('Intelligent Processes, Machine Learning, Deep Learning, Robotics & Perception')}}</p>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <div class="count-box"><span>04</span></div>
+                                    <div class="inner">
+                                        <h3><a href="index.html">{{__('Applied mathematics')}}</a></h3>
+                                        <p>{{__('Porous and composite media, Image processing, Machine learning, Data analysis, Random processes, Number theory')}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -568,13 +570,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-details.html"><img
+                            <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-1.webp" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="service-details.html">Distribution Dynamique de Données</a></h3>
+                                <h3><a href="team/1">Distribution Dynamique de Données</a></h3>
                                 <p> Structures de données et de fichiers, Programmation dans toutes ses formes Bases de
                                     données, Compilation, Spécifications de programmes.</p>
-                                <div class="link"><a href="service-details.html">Read More<i
+                                <div class="link"><a href="team/1">Read More<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
@@ -583,14 +585,14 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-details.html"><img
+                            <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-2.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="service-details.html">Mathématiques Appliquées</a></h3>
+                                <h3><a href="team/1">Mathématiques Appliquées</a></h3>
                                 <p>Domaine(s) d'intérêt : Étude de problèmes liés à la mécanique et à la physique
                                     (Écoulement de fluides, diffusion.....) dans des milieux poreux et composites. Data
                                     mining et Machine learning. Processus aléatoires. Traitement d'images.</p>
-                                <div class="link"><a href="service-details.html">Read More<i
+                                <div class="link"><a href="team/1">Read More<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
@@ -599,13 +601,13 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-details.html"><img
+                            <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-3.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="service-details.html">Bases de Données Avancées</a></h3>
+                                <h3><a href="team/1">Bases de Données Avancées</a></h3>
                                 <p>Domaine(s) d'intérêt : Bases de données, Algorithmique, Paradigmes de programmations,
                                     Structures de données et de fichiers.</p>
-                                <div class="link"><a href="service-details.html">Read More<i
+                                <div class="link"><a href="team/1">Read More<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
@@ -617,12 +619,12 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                     <div class="service-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="service-details.html"><img
+                            <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-4.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="service-details.html">Processus Intelligents</a></h3>
+                                <h3><a href="team/1">Processus Intelligents</a></h3>
                                 <p>Domaine(s) d'intérêt : Intelligence Artificielle. Robotique & Perception.</p>
-                                <div class="link"><a href="service-details.html">Read More<i
+                                <div class="link"><a href="team/1">Read More<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
@@ -645,10 +647,10 @@
                                 <figure class="image"><img src="assets/images/professors/professor-5.png"
                                         alt=""></figure>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                 </ul>
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
@@ -666,10 +668,10 @@
                                 <figure class="image"><img src="assets/images/professors/professor-5.png"
                                         alt=""></figure>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                 </ul>
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
@@ -687,10 +689,10 @@
                                 <figure class="image"><img src="assets/images/professors/professor-5.png"
                                         alt=""></figure>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                 </ul>
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
@@ -708,10 +710,10 @@
                                 <figure class="image"><img src="assets/images/professors/professor-5.png"
                                         alt=""></figure>
                                 <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                 </ul>
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
@@ -1171,10 +1173,10 @@
                         <div class="follow-box">
                             <h5>Follow Us:</h5>
                             <ul class="social-links clearfix">
-                                <li><a href="contact.html"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="contact.html"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="contact.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="contact.html"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1269,10 +1271,10 @@
                                 <div class="social-inner">
                                     <h3>Follow Us:</h3>
                                     <ul class="social-links clearfix">
-                                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="index.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

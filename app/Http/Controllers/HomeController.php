@@ -53,6 +53,22 @@ class HomeController extends Controller
         }
     }
 
+
+    public function team($id)
+    {
+
+        try {
+            $locale = App::currentLocale();
+
+            return view('teams.team'.$id);//, compact('faq'));
+        } catch (Throwable $e) {
+            report($e);
+            Log::error($e->getMessage());
+
+            return false;
+        }
+    }
+
     public function setlocale($locale)
     {
         try {
