@@ -234,7 +234,7 @@
                                             <li><a href="team-details.html">Team Details</a></li>
                                         </ul>
                                     </li> --}}
-                                    <li class="dropdown"><a href="index.html">Others</a>
+                                    <!-- <li class="dropdown"><a href="index.html">Others</a>
                                         <div class="megamenu">
                                             <div class="row clearfix">
                                                 <div class="col-lg-3 column">
@@ -291,7 +291,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> -->
                                     {{-- <li class="dropdown"><a href="index.html">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Latest News</a></li>
@@ -334,15 +334,15 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/-1.png" alt=""
+            <div class="nav-logo"><a href="/"><img src="assets/images/-1.png" alt=""
                         title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
             </div>
             <div class="contact-info">
-                <h4>Contact Info</h4>
+                <h4>{{ __('Contact Info') }}</h4>
                 <ul>
-                    <li>LCSI BP 68M Oued-Smar 16309 Alger</li>
+                    <li>{{ __('LCSI BP 68M Oued-Smar 16309 Alger') }}</li>
                     <li><a href="tel:+8801682648101">(+213/0) 21 51 60 77</a></li>
                     <li><a href="mailto:info@example.com">lcsi@esi.dz</a></li>
                 </ul>
@@ -367,10 +367,10 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-4.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>Welcome To LCSI</h5>
-                        <h1>Serving Science & Technology</h1>
+                        <h5>{{ __('Welcome To LCSI') }}</h5>
+                        <h1>{{ __('Serving Science & Technology') }}</h1>
                         <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Our Service</a>
+                            <a href="service.html" class="theme-btn style-two">{{ __('Our Services') }}</a>
                         </div>
                     </div>
                 </div>
@@ -379,10 +379,10 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-8.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>AI Team</h5>
-                        <h1>Robotics & Artificial Intelligence</h1>
+                        <h5>{{ __('AI Team') }}</h5>
+                        <h1>{{ __('Robotics & Artificial Intelligence') }}</h1>
                         <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Read more</a>
+                            <a href="service.html" class="theme-btn style-two">{{ __('Read more') }}</a>
                         </div>
                     </div>
                 </div>
@@ -391,10 +391,10 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-5.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>Productions </h5>
-                        <h1>Articles & Books</h1>
+                        <h5>{{ __('Productions') }}</h5>
+                        <h1>{{ __('Articles & Books') }}</h1>
                         <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Our Productions</a>
+                            <a href="service.html" class="theme-btn style-two">{{ __('Our Productions') }}</a>
                         </div>
                     </div>
                 </div>
@@ -403,10 +403,10 @@
                 <div class="image-layer" style="background-image:url(assets/images/banner/banner-3.jpg)"></div>
                 <div class="auto-container">
                     <div class="content-box">
-                        <h5>Welcome To LCSI</h5>
-                        <h1>Serving Science & Technology</h1>
+                        <h5>{{ __('Welcome To LCSI') }}</h5>
+                        <h1>{{ __('Serving Science & Technology') }}</h1>
                         <div class="btn-box">
-                            <a href="service.html" class="theme-btn style-two">Our Service</a>
+                            <a href="service.html" class="theme-btn style-two">{{ __('Our Services') }}</a>
                         </div>
                     </div>
                 </div>
@@ -424,10 +424,10 @@
                 <div class="inner pull-left">
                     <h4>{{ __('One of the best research laboratory in Algeria from 2010-2023!') }}</h4>
                     <p>{{ __('LCSI is a research laboratory in ESI') }}</p>
-                    <p>{{ __('Commencé en 2010 par un Arrêté ministériel n° 93 du 25 mars 2010') }}</p>
+                    <p>{{ __('Started in 2010 by Ministerial Order No. 93 of March 25, 2010') }}</p>
                 </div>
                 <div class="btn-box pull-right">
-                    <a href="#contact" class="theme-btn style-one">Contact Us</a>
+                    <a href="#contact" class="theme-btn style-one">{{ __('Contact Us') }}</a>
                 </div>
             </div>
         </div>
@@ -456,14 +456,14 @@
                     <div id="content_block_01">
                         <div class="content-box">
                             <div class="sec-title left">
-                                <p>About Us</p>
-                                <h2>We Employ The Latest Research Technology & Company</h2>
+                                <p>{{__('About Us')}}</p>
+                                <h2>{{__('We Employ The Latest Research Technology & Company')}}</h2>
                                 <span class="separator"></span>
                             </div>
                             <div class="text">
-                                <p>Our scientists and engineers focus their curiosity on national and global 
+                                <p>{{__('Our scientists and engineers focus their curiosity on national and global 
                                     Computer Systems related challenges. Learn more about the Laboratory’s R&D work
-                                    below segment.</p>
+                                    below segment.')}}</p>
                             </div>
                             <div class="inner-box">
                                 <div class="single-item">
@@ -509,13 +509,13 @@
         <div class="auto-container">
             <div class="title-box">
                 <div class="sec-title">
-                    <p>Priority Delivered</p>
-                    <h2>We Have Great Facts</h2>
+                    <p>{{ __('Priority Delivered') }}</p>
+                    <h2>{{ __('We Have Great Facts') }}</h2>
                     <span class="separator"></span>
                 </div>
                 <div class="text">
-                    <p>On the other hand we denounce with righteous indignation and dislike men who are so beguiled
-                        <br />and demoralized by the pleasure of the desire that they cannot foresee.</p>
+                    <p>{{ __('On the other hand we denounce with righteous indignation and dislike men who are so beguiled') }}
+                        <br />{{ __('and demoralized by the pleasure of the desire that they cannot foresee.') }}</p>
                 </div>
             </div>
             <div class="row clearfix">
@@ -562,8 +562,8 @@
         <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-2.png);"></div>
         <div class="auto-container">
             <div class="sec-title">
-                <p>How We are organized</p>
-                <h2>Explore Our Main Teams</h2>
+                <p>{{ __('How We are organized') }}</p>
+                <h2>{{ __('Explore Our Main Teams') }}</h2>
                 <span class="separator"></span>
             </div>
             <div class="row clearfix">
@@ -573,11 +573,9 @@
                             <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-1.webp" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="team/1">Distribution Dynamique de Données</a></h3>
-                                <p> Structures de données et de fichiers, Programmation dans toutes ses formes Bases de
-                                    données, Compilation, Spécifications de programmes.</p>
-                                <div class="link"><a href="team/1">Read More<i
-                                            class="fas fa-angle-double-right"></i></a></div>
+                                <h3><a href="team/1">{{ __('Dynamic Data Distribution') }}</a></h3>
+                                <p> {{ __('Data and file structures, Programming in all its forms Databases, Compilation, Program specifications.') }}</p>
+                                <div class="link"><a href="team/1">{{ __('Read More') }}<i class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -588,12 +586,9 @@
                             <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-2.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="team/1">Mathématiques Appliquées</a></h3>
-                                <p>Domaine(s) d'intérêt : Étude de problèmes liés à la mécanique et à la physique
-                                    (Écoulement de fluides, diffusion.....) dans des milieux poreux et composites. Data
-                                    mining et Machine learning. Processus aléatoires. Traitement d'images.</p>
-                                <div class="link"><a href="team/1">Read More<i
-                                            class="fas fa-angle-double-right"></i></a></div>
+                                <h3><a href="team/1">{{ __('Applied mathematics') }}</a></h3>
+                                <p>{{ __('Area(s) of interest: Study of problems related to mechanics and physics (Fluid flow, diffusion...) in porous and composite media. Data mining and Machine learning. Processes image processing.') }}</p>
+                                <div class="link"><a href="team/1">{{ __('Read More') }}<i class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -604,10 +599,9 @@
                             <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-3.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="team/1">Bases de Données Avancées</a></h3>
-                                <p>Domaine(s) d'intérêt : Bases de données, Algorithmique, Paradigmes de programmations,
-                                    Structures de données et de fichiers.</p>
-                                <div class="link"><a href="team/1">Read More<i
+                                <h3><a href="team/1">{{ __('Advanced Databases') }}</a></h3>
+                                <p>{{ __('Area(s) of interest: Databases, Algorithms, Programming paradigms, Data and file structures.') }}</p>
+                                <div class="link"><a href="team/1">{{ __('Read More') }}<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
@@ -622,16 +616,16 @@
                             <figure class="image-box"><a href="team/1"><img
                                         src="assets/images/team/team-4.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="team/1">Processus Intelligents</a></h3>
-                                <p>Domaine(s) d'intérêt : Intelligence Artificielle. Robotique & Perception.</p>
-                                <div class="link"><a href="team/1">Read More<i
+                                <h3><a href="team/1">{{ __('Intelligent Processes') }}</a></h3>
+                                <p>{{ __('Area(s) of interest: Artificial Intelligence. Robotics & Perception.') }}</p>
+                                <div class="link"><a href="team/1">{{ __('Read More') }}<i
                                             class="fas fa-angle-double-right"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="more-btn"><a href="service.html" class="theme-btn style-one">All Teams</a></div>
+            <div class="more-btn"><a href="service.html" class="theme-btn style-one">{{ __('All Teams') }}</a></div>
         </div>
     </section>
     <!-- service-section end -->
@@ -655,8 +649,8 @@
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="team-details.html">Djamel-Eddine ZEGOUR</a></h3>
-                                <span class="designation">Laboratory Manager</span>
+                                <h3><a href="team-details.html">{{ __('Djamel-Eddine ZEGOUR') }}</a></h3>
+                                <span class="designation">{{ __('Laboratory Manager') }}</span>
                             </div>
                         </div>
                     </div>
@@ -676,8 +670,8 @@
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="team-details.html">Hamid HADDADOU</a></h3>
-                                <span class="designation">Team Leader</span>
+                                <h3><a href="team-details.html">{{ __('Hamid HADDADOU') }}</a></h3>
+                                <span class="designation">{{ __('Team Leader') }}</span>
                             </div>
                         </div>
                     </div>
@@ -686,8 +680,7 @@
                     <div class="team-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="assets/images/professors/professor-5.png"
-                                        alt=""></figure>
+                                <figure class="image"><img src="assets/images/professors/professor-5.png" alt=""></figure>
                                 <ul class="social-links clearfix">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
@@ -697,8 +690,8 @@
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="team-details.html">Walid-Khaled HIDOUCI</a></h3>
-                                <span class="designation">Team Leader</span>
+                                <h3><a href="team-details.html">{{ __('Walid-Khaled HIDOUCI') }}</a></h3>
+                                <span class="designation">{{ __('Team Leader') }}</span>
                             </div>
                         </div>
                     </div>
@@ -718,8 +711,8 @@
                                 <div class="link"><a href="team-details.html"><i class="fas fa-link"></i></a></div>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="team-details.html">Mohamed LOUDINI</a></h3>
-                                <span class="designation">Team Leader</span>
+                                <h3><a href="team-details.html">{{ __('Mohamed LOUDINI') }}</a></h3>
+                                <span class="designation">{{ __('Team Leader') }}</span>
                             </div>
                         </div>
                     </div>
@@ -746,37 +739,35 @@
                     <div id="content_block_02">
                         <div class="content-box">
                             <div class="sec-title left">
-                                <p>A GREAT TECHNOLOGY</p>
-                                <h2>We Are The Trusted Experts Latest Laboratory Technology</h2>
+                                <p>{{ __('A GREAT TECHNOLOGY') }}</p>
+                                <h2>{{ __('We Are The Trusted Experts Latest Laboratory Technology') }}</h2>
                                 <span class="separator"></span>
                             </div>
                             <div class="text">
-                                <p>Paramedical healthcare field attracts to save lives & helping people, being a doctor
-                                    is not your only choice. We how else you can help patients without being a doctor,
-                                    here we serving awesome opportunity.</p>
+                                <p>{{ __('Paramedical healthcare field attracts to save lives & helping people, being a doctor is not your only choice. We how else you can help patients without being a doctor, here we serving awesome opportunity.') }}</p>
                             </div>
                             <ul class="list-item clearfix">
                                 <li><i class="flaticon-laboratory"></i>
-                                    <h5>Corticosterone EIA</h5>
+                                    <h5>{{ __('Corticosterone EIA') }}</h5>
                                 </li>
                                 <li><i class="flaticon-laboratory"></i>
-                                    <h5>Sample Preparation</h5>
+                                    <h5>{{ __('Sample Preparation') }}</h5>
                                 </li>
                                 <li><i class="flaticon-laboratory"></i>
-                                    <h5>Environmental Testing</h5>
+                                    <h5>{{ __('Environmental Testing') }}</h5>
                                 </li>
                                 <li><i class="flaticon-laboratory"></i>
-                                    <h5>Anatomical Pathology</h5>
+                                    <h5>{{ __('Anatomical Pathology') }}</h5>
                                 </li>
                                 <li><i class="flaticon-laboratory"></i>
-                                    <h5>Advanced Microscopy</h5>
+                                    <h5>{{ __('Advanced Microscopy') }}</h5>
                                 </li>
                             </ul>
                             <div class="bold-text">
-                                <p>Don’t hesitate, contact us for better help and services.</p>
+                                <p>{{ __('Don’t hesitate, contact us for better help and services.') }}</p>
                             </div>
                             <div class="btn-box">
-                                <a href="index.html" class="theme-btn style-one">Explore all Technology</a>
+                                <a href="index.html" class="theme-btn style-one">{{ __('Explore all Technology') }}</a>
                             </div>
                         </div>
                     </div>
@@ -795,38 +786,37 @@
                     <div id="content_block_03">
                         <div class="content-box">
                             <div class="sec-title left light">
-                                <p>Experience</p>
-                                <h2>Lab Trusted Experts</h2>
+                                <p>{{ __('Experience') }}</p>
+                                <h2>{{ __('Lab Trusted Experts') }}</h2>
                                 <span class="separator"></span>
                             </div>
                             <div class="text">
-                                <p>We know how to bring the security you need. With an experience in a wide range of
-                                    fields and devices.</p>
+                                <p>{{ __('We know how to bring the security you need. With an experience in a wide range of fields and devices.') }}</p>
                             </div>
                             <div class="progress-content">
                                 <div class="progress-box">
-                                    <h5>Sample Preparation</h5>
+                                    <h5>{{ __('Sample Preparation') }}</h5>
                                     <div class="bar">
                                         <div class="bar-inner count-bar" data-percent="68%"></div>
                                         <span class="count-text">68%</span>
                                     </div>
                                 </div>
                                 <div class="progress-box">
-                                    <h5>Environmental Testing</h5>
+                                    <h5>{{ __('Environmental Testing') }}</h5>
                                     <div class="bar">
                                         <div class="bar-inner count-bar" data-percent="80%"></div>
                                         <span class="count-text">80%</span>
                                     </div>
                                 </div>
                                 <div class="progress-box">
-                                    <h5>Advanced Microscopy</h5>
+                                    <h5>{{ __('Advanced Microscopy') }}</h5>
                                     <div class="bar">
                                         <div class="bar-inner count-bar" data-percent="61%"></div>
                                         <span class="count-text">61%</span>
                                     </div>
                                 </div>
                                 <div class="progress-box">
-                                    <h5>Medical Reserch</h5>
+                                    <h5>{{ __('Medical Reserch') }}</h5>
                                     <div class="bar">
                                         <div class="bar-inner count-bar" data-percent="70%"></div>
                                         <span class="count-text">70%</span>
@@ -840,8 +830,8 @@
                     <div id="content_block_04">
                         <div class="form-inner">
                             <div class="sec-title left">
-                                <p>Online Appoinment</p>
-                                <h2>Make An Appointment</h2>
+                                <p>{{ __('Online Appoinment') }}</p>
+                                <h2>{{ __('Make An Appointment') }}</h2>
                                 <span class="separator"></span>
                             </div>
                             <form action="http://azim.commonsupport.com/Losalamos/index.html"
@@ -862,15 +852,14 @@
                                     <textarea name="message" placeholder="Tell us about Pasent"></textarea>
                                 </div>
                                 <div class="form-group message-btn">
-                                    <button type="submit" class="theme-btn style-one">Submit Query</button>
+                                    <button type="submit" class="theme-btn style-one">{{ __('Submit Query') }}</button>
                                 </div>
                                 <div class="form-group">
                                     <div class="custom-controls-stacked">
                                         <label class="custom-control material-checkbox">
                                             <input type="checkbox" class="material-control-input">
                                             <span class="material-control-indicator"></span>
-                                            <span class="description">I agree that my submitted data is being collected
-                                                and stored.</span>
+                                            <span class="description">{{ __('I agree that my submitted data is being collected and stored.') }}</span>
                                         </label>
                                     </div>
                                 </div>
@@ -888,8 +877,8 @@
     <section class="testimonial-section centred">
         <div class="auto-container">
             <div class="sec-title">
-                <p>Testimonial</p>
-                <h2>What Our Patient Say</h2>
+                <p>{{ __('Testimonial') }}</p>
+                <h2>{{ __('What Our Patient Say') }}</h2>
                 <span class="separator"></span>
             </div>
             <div class="testimonial-carousel owl-carousel owl-theme owl-nav-none">
@@ -899,11 +888,10 @@
                         </div>
                         <figure class="image-box"><img src="assets/images/resource/testimonial-3.png" alt="">
                         </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>{{ __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,') }}</p>
                         <div class="icon-box"><i class="flaticon-right-quotation-mark"></i></div>
-                        <h3>Thomas Lee</h3>
-                        <span class="designation">Media Touch</span>
+                        <h3>{{ __('Thomas Lee') }}</h3>
+                        <span class="designation">{{ __('Media Touch') }}</span>
                     </div>
                 </div>
                 <div class="testimonial-content">
@@ -912,11 +900,10 @@
                         </div>
                         <figure class="image-box"><img src="assets/images/resource/testimonial-4.jpg" alt="">
                         </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>{{ __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,') }}</p>
                         <div class="icon-box"><i class="flaticon-right-quotation-mark"></i></div>
-                        <h3>Josan Meila</h3>
-                        <span class="designation">Media Touch</span>
+                        <h3>{{ __('Josan Meila') }}</h3>
+                        <span class="designation">Media Touch') }}</span>
                     </div>
                 </div>
                 <div class="testimonial-content">
@@ -925,11 +912,10 @@
                         </div>
                         <figure class="image-box"><img src="assets/images/resource/testimonial-1.jpg" alt="">
                         </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>{{ __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,') }}</p>
                         <div class="icon-box"><i class="flaticon-right-quotation-mark"></i></div>
-                        <h3>Thomas Lee</h3>
-                        <span class="designation">Media Touch</span>
+                        <h3>{{ __('Thomas Lee') }}</h3>
+                        <span class="designation">Media Touch') }}</span>
                     </div>
                 </div>
                 <div class="testimonial-content">
@@ -938,11 +924,10 @@
                         </div>
                         <figure class="image-box"><img src="assets/images/resource/testimonial-3.png" alt="">
                         </figure>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>{{ __('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,') }}</p>
                         <div class="icon-box"><i class="flaticon-right-quotation-mark"></i></div>
-                        <h3>Josan Meila</h3>
-                        <span class="designation">Media Touch</span>
+                        <h3>{{ __('Josan Meila') }}</h3>
+                        <span class="designation">{{ __('Media Touch') }}</span>
                     </div>
                 </div>
             </div>
@@ -1000,8 +985,8 @@
     <section class="news-section bg-color-1" id="news">
         <div class="auto-container">
             <div class="sec-title">
-                <p>OUR NEWS & BLOG</p>
-                <h2>Publish What You Think</h2>
+                <p>{{ __('OUR NEWS & BLOG') }}</p>
+                <h2>{{ __('Publish What You Think') }}</h2>
                 <span class="separator"></span>
             </div>
             <div class="row clearfix">
@@ -1017,19 +1002,17 @@
                             <div class="lower-content">
                                 <div class="upper-box">
                                     <ul class="post-info clearfix">
-                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">Comments 47</a>
+                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">{{ __('Comments 47') }}</a>
                                         </li>
-                                        <li><i class="far fa-calendar-alt"></i>Jan 13, 2020</li>
+                                        <li><i class="far fa-calendar-alt"></i>{{ __('Jan 13, 2020') }}</li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Ways To Tell Youre Suffering To From An Skion</a>
+                                    <h3><a href="blog-details.html">{{ __('Ways To Tell Youre Suffering To From An Skion') }}</a>
                                     </h3>
-                                    <p>We provide complete process piping capabilities for industrial from pulp and
-                                        paper.</p>
+                                    <p>{{ __('We provide complete process piping capabilities for industrial from pulp and paper.') }}</p>
                                 </div>
                                 <div class="lower-box clearfix">
-                                    <div class="link"><a href="blog-details.html">READ MORE</a></div>
-                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">By
-                                            Admin</a></div>
+                                    <div class="link"><a href="blog-details.html">{{ __('READ MORE') }}</a></div>
+                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">{{ __('By Admin') }}</a></div>
                                 </div>
                             </div>
                         </div>
@@ -1047,19 +1030,17 @@
                             <div class="lower-content">
                                 <div class="upper-box">
                                     <ul class="post-info clearfix">
-                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">Comments 42</a>
+                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">{{ __('Comments 42') }}</a>
                                         </li>
-                                        <li><i class="far fa-calendar-alt"></i>Jan 14, 2020</li>
+                                        <li><i class="far fa-calendar-alt"></i>{{ __('Jan 14, 2020') }}</li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Do You Want To Fast Track your Lab Operations</a>
+                                    <h3><a href="blog-details.html">{{ __('Do You Want To Fast Track your Lab Operations') }}</a>
                                     </h3>
-                                    <p>We provide complete process piping capabilities for industrial from pulp and
-                                        paper.</p>
+                                    <p>{{ __('We provide complete process piping capabilities for industrial from pulp and paper.') }}</p>
                                 </div>
                                 <div class="lower-box clearfix">
-                                    <div class="link"><a href="blog-details.html">READ MORE</a></div>
-                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">By
-                                            Admin</a></div>
+                                    <div class="link"><a href="blog-details.html">{{ __('READ MORE') }}</a></div>
+                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">{{ __('By Admin') }}</a></div>
                                 </div>
                             </div>
                         </div>
@@ -1077,19 +1058,17 @@
                             <div class="lower-content">
                                 <div class="upper-box">
                                     <ul class="post-info clearfix">
-                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">Comments 40</a>
+                                        <li><i class="fas fa-comments"></i><a href="blog-details.html">{{ __('Comments 40') }}</a>
                                         </li>
-                                        <li><i class="far fa-calendar-alt"></i>Jan 15, 2020</li>
+                                        <li><i class="far fa-calendar-alt"></i>{{ __('Jan 15, 2020') }}</li>
                                     </ul>
-                                    <h3><a href="blog-details.html">Learn: Blood bank operations and management</a>
+                                    <h3><a href="blog-details.html">{{ __('Learn: Blood bank operations and management') }}</a>
                                     </h3>
-                                    <p>We provide complete process piping capabilities for industrial from pulp and
-                                        paper.</p>
+                                    <p>{{ __('We provide complete process piping capabilities for industrial from pulp and paper.') }}</p>
                                 </div>
                                 <div class="lower-box clearfix">
-                                    <div class="link"><a href="blog-details.html">READ MORE</a></div>
-                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">By
-                                            Admin</a></div>
+                                    <div class="link"><a href="blog-details.html">{{ __('READ MORE') }}</a></div>
+                                    <div class="admin"><i class="fas fa-user"></i><a href="blog-details.html">{{ __('By Admin') }}</a></div>
                                 </div>
                             </div>
                         </div>
@@ -1097,8 +1076,7 @@
                 </div>
             </div>
             <div class="more-text">
-                <p>Don’t hesitate, contact us for better help and blog. <a href="blog.html">Explore all latest
-                        News.</a></p>
+                <p>{{ __('Don’t hesitate, contact us for better help and blog.') }} <a href="blog.html">{{ __('Explore all latest News.') }}</a></p>
             </div>
         </div>
     </section>
@@ -1108,16 +1086,16 @@
     <section class="contact-section" id="contact">
         <div class="auto-container">
             <div class="sec-title">
-                <p>Contact Us</p>
-                <h2>Publish What You Think</h2>
+                <p>{{ __('Contact Us') }}</p>
+                <h2>{{ __('Publish What You Think') }}</h2>
                 <span class="separator"></span>
             </div>
             <div class="row clearfix">
                 <div class="col-lg-8 col-md-12 col-sm-12 form-column">
                     <div class="form-inner">
                         <div class="sec-title left">
-                            <p>Drop Us Line</p>
-                            <h2>We’d Love To Hear From You.</h2>
+                            <p>{{ __('Drop Us Line') }}</p>
+                            <h2>{{ __('We’d Love To Hear From You.') }}</h2>
                             <span class="separator"></span>
                         </div>
                         <form method="post" action="http://azim.commonsupport.com/Losalamos/sendemail.php"
@@ -1139,8 +1117,7 @@
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
-                                    <button type="submit" class="theme-btn style-one" name="submit-form">Submit
-                                        Now</button>
+                                    <button type="submit" class="theme-btn style-one" name="submit-form">{{ __('Submit Now') }}</button>
                                 </div>
                             </div>
                         </form>
@@ -1149,29 +1126,29 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 info-column">
                     <div class="info-inner">
                         <div class="sec-title left">
-                            <p>Contact Info</p>
-                            <h2>Contact With Us </h2>
+                            <p>{{ __('Contact Info') }}</p>
+                            <h2>{{ __('Contact With Us') }} </h2>
                             <span class="separator"></span>
                         </div>
                         <ul class="info-box clearfix">
                             <li>
                                 <div class="icon-box"><i class="flaticon-call"></i></div>
-                                <h5>Phone No.</h5>
+                                <h5>{{ __('Phone No.') }}</h5>
                                 <p><a href="tel:1800123456">(+213) 021 51 60 77 </a></p>
                             </li>
                             <li>
                                 <div class="icon-box"><i class="flaticon-circular-clock"></i></div>
-                                <h5>Opening Hours</h5>
+                                <h5>{{ __('Opening Hours') }}</h5>
                                 <p>8:00 - 16:00 </p>
                             </li>
                             <li>
                                 <div class="icon-box"><i class="flaticon-worldwide"></i></div>
-                                <h5>Address</h5>
-                                <p> LCSI BP 68M Oued-Smar 16309 Alger.</p>
+                                <h5>{{ __('Address') }}</h5>
+                                <p> {{ __('LCSI BP 68M Oued-Smar 16309 Alger') }}</p>
                             </li>
                         </ul>
                         <div class="follow-box">
-                            <h5>Follow Us:</h5>
+                            <h5>{{ __('Follow Us:') }}</h5>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -1183,8 +1160,7 @@
                 </div>
             </div>
             <div class="more-text">
-                <p>Don’t hesitate, contact us for better help and blog. <a href="blog.html">Explore all latest
-                        News.</a></p>
+                <p>{{ __('Don’t hesitate, contact us for better help and blog.') }} <a href="blog.html">{{ __('Explore all latest News.') }}</a></p>
             </div>
         </div>
     </section>
@@ -1230,8 +1206,8 @@
             <div class="row clearfix">
                 <div class="col-lg-5 col-md-12 col-sm-12 inner-column">
                     <div class="inner-box">
-                        <h2>Subscribe Newsletter</h2>
-                        <p>Stay in touch with us to get latest news and discount coupons</p>
+                        <h2>{{ __('Subscribe Newsletter') }}</h2>
+                        <p>{{ __('Stay in touch with us to get latest news and discount coupons') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 form-column">
@@ -1239,7 +1215,7 @@
                         class="newsletter-form">
                         <div class="form-group">
                             <input type="email" name="email" placeholder="Enter Your Email" required="">
-                            <button class="theme-btn style-two" type="submit">Subscribe Now!</button>
+                            <button class="theme-btn style-two" type="submit">{{ __('Subscribe Now!') }}</button>
                         </div>
                     </form>
                 </div>
@@ -1261,15 +1237,13 @@
                                 <figure class="footer-logo"><a href="index.html"><img
                                             src="assets/images/footer-logo.png" alt=""></a></figure>
                                 <div class="text">
-                                    <p>LCSI ( Communication dans les Systèmes Informatiques ) est un laboratoire de
-                                        recherche dans l'ESI ( Ecole National Supperieure d'Informatique ), commencé en
-                                        2010 par un Arrêté ministériel n° 93 du 25 mars 2010. </p>
+                                    <p>{{ __('LCSI (Communication in Computer Systems) is a research laboratory in the ESI (National School of Computer Science), started in 2010 by Ministerial Order No. 93 of March 25, 2010.') }} </p>
                                 </div>
                                 <div class="text">
-                                    <p> LCSI BP 68M Oued-Smar 16309 Alger </p>
+                                    <p> {{ __('LCSI BP 68M Oued-Smar 16309 Algiers') }} </p>
                                 </div>
                                 <div class="social-inner">
-                                    <h3>Follow Us:</h3>
+                                    <h3>{{ __('Follow Us:') }}</h3>
                                     <ul class="social-links clearfix">
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
@@ -1282,15 +1256,15 @@
                         <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h3>Usefull Links</h3>
+                                    <h3>{{ __('Usefull Links') }}</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="clearfix">
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="index.html">Our Services</a></li>
-                                        <li><a href="index.html">Our Team</a></li>
-                                        <li><a href="index.html">Contacts</a></li>
-                                        <li><a href="index.html">Research</a></li>
+                                        <li><a href="index.html">{{ __('About Us') }}</a></li>
+                                        <li><a href="index.html">{{ __('Our Services') }}</a></li>
+                                        <li><a href="index.html">{{ __('Our Team') }}</a></li>
+                                        <li><a href="index.html">{{ __('Contacts') }}</a></li>
+                                        <li><a href="index.html">{{ __('Research') }}</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1298,24 +1272,22 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget post-widget">
                                 <div class="widget-title">
-                                    <h3>Recent Post</h3>
+                                    <h3>{{ __('Recent Post') }}</h3>
                                 </div>
                                 <div class="post-inner">
                                     <div class="post">
                                         <figure class="image-box"><a href="blog-details.html"><img
                                                     src="assets/images/resource/testimonial-3.png" alt=""></a>
                                         </figure>
-                                        <p><i class="fas fa-calendar-alt"></i>Feb 05, 2020</p>
-                                        <h5><a href="blog-details.html">Tests with Nursing Implicat Laboratory
-                                                Technician</a></h5>
+                                        <p><i class="fas fa-calendar-alt"></i>{{ __('Feb 05, 2020') }}</p>
+                                        <h5><a href="blog-details.html">{{ __('Tests with Implicat Laboratory Technician') }}</a></h5>
                                     </div>
                                     <div class="post">
                                         <figure class="image-box"><a href="blog-details.html"><img
                                                     src="assets/images/resource/testimonial-4.jpg" alt=""></a>
                                         </figure>
-                                        <p><i class="fas fa-calendar-alt"></i>Feb 06, 2020</p>
-                                        <h5><a href="blog-details.html">Equipping Researchers Lab in the
-                                                Developing.</a></h5>
+                                        <p><i class="fas fa-calendar-alt"></i>{{ __('Feb 06, 2020') }}</p>
+                                        <h5><a href="blog-details.html">{{ __('Equipping Researchers Lab in the Developing.') }}</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -1323,15 +1295,15 @@
                         <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h3>Our Services</h3>
+                                    <h3>{{ __('Our Services') }}</h3>
                                 </div>
                                 <div class="widget-content">
                                     <ul class="clearfix">
-                                        <li><a href="index.html">Scientific</a></li>
-                                        <li><a href="index.html">Chemistry</a></li>
-                                        <li><a href="index.html">Gemological</a></li>
-                                        <li><a href="index.html">Forensic science</a></li>
-                                        <li><a href="index.html">Immunology</a></li>
+                                        <li><a href="index.html">{{ __('Scientific') }}</a></li>
+                                        <li><a href="index.html">{{ __('Chemistry<') }}/a></li>
+                                        <li><a href="index.html">{{ __('Gemological') }}</a></li>
+                                        <li><a href="index.html">{{ __('Forensic science') }}</a></li>
+                                        <li><a href="index.html">{{ __('Immunology') }}</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1343,7 +1315,7 @@
         <div class="footer-bottom centred">
             <div class="auto-container">
                 <div class="copyright">
-                    <p>Copyright &copy; 2020 <a href="index.html">Losalamos</a>. All rights reserved.</p>
+                    <p>{{ __('Copyright &copy; 2020') }} <a href="index.html">{{ __('LCSI') }}</a>. {{ __('All rights reserved.') }}</p>
                 </div>
             </div>
         </div>
